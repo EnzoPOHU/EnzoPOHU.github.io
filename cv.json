@@ -1,0 +1,129 @@
+{
+  "job": "Développeur de solutions digitales<br />À la recherche d'un stage de 2 à 4 mois<br />et d'une alternance de 2 ans",
+  "name": "Enzo Pohu",
+  "age": "18 ans",
+  "phone": "06 31 60 71 55",
+  "email": "enzopohu91@gmail.com",
+  "place": "Courville-Sur-Eure (28190)",
+  "pitch": "Je cherche à allier créativité ludique et rigueur technique pour exceller dans le développement web.",
+  "situation": "Je recherche un stage de <b>4 mois (22 Avril au 9 Août 2024)</b> et une <b>alternance de 24 mois (à partir de Septembre 2024)</b> en informatique avec un rythme <b>3 semaines entreprise / 2 semaines formation</b>.",
+  "driving-license": "",
+  "socials": [
+    {
+      "icon": "linkedin",
+      "link": "https://www.linkedin.com/in/enzo-pohu-03a3272a2/"
+    },
+    {
+      "icon": "github",
+      "link": "https://github.com/EnzoPOHU"
+    }
+  ],
+  "hardskills": [
+    { "name": "HTML5", "icon": "html5-plain" },
+    { "name": "CSS3", "icon": "css3-plain" },
+    { "name": "Javascript", "icon": "javascript-plain" },
+    { "name": "C#", "icon": "csharp-plain" },
+    { "name": "PHP", "icon": "php-plain" },
+    { "name": "MySQL", "icon": "mysql-plain" },
+    { "name": "Java", "icon": "java-plain" },
+    { "name": "Python", "icon": "python-plain" },
+    { "name": "Git", "icon": "git-plain" }
+  ],
+  "nextHardskills": [
+    { "name": "React", "icon": "react-plain" },
+    { "name": "Angular", "icon": "angularjs-plain" },
+    { "name": "Vue.js", "icon": "vuejs-plain" },
+    { "name": "Node.js", "icon": "nodejs-plain" },
+    { "name": "Android", "icon": "android-plain" },
+    { "name": "iOS", "icon": "apple-plain" }
+  ],
+  "langs": ["Anglais : A2, Débutant"],
+"softskills": ["Créatif", "Déterminé", "Rigoureux", "Curieux", "Esprit d'équipe"],
+  "education": [
+    {
+      "timeRange": "2023 - 2026",
+      "title": "Bachelor Web Sécurité",
+      "name": "Coding Factory by ESIEE-it (CCI PARIS IDF EDUCATION)",
+      "place": "Paris",
+      "skills": [
+        "Analyse des besoins des utilisateurs",
+        "Conception, développement et test des applications web mobile sécurisées",
+        "Utilisation, optimisation et maintenance de ces applications",
+        "Maîtrise des technologies du front-end et du back-end",
+        "Application de la méthodologie Agile, savoir travailler en équipe"
+      ],
+      "img": "coding_factory.jfif",
+      "link": "https://codingfactory.fr/nos-formations/bachelor-developpement-web"
+    },
+    {
+      "timeRange": "2023",
+      "title": "Baccalauréat Technologique, spécialité Système d'information et numérique",
+      "name": "Lyçée Jean de Beauce",
+      "place": "Chartres",
+      "img": "lycee.png",
+      "link": "http://www.lycee-jdb.fr"
+    }
+  ],
+  "interests": [
+    {
+      "title": "Jeu vidéo",
+      "items": [
+        "Projet solo d'un jeu indépendant", 
+        "Joueur actif"
+      ]
+    },
+    {
+      "title": "Musique",
+      "items": [
+        "Rap", 
+        "Phonk"
+      ]
+    }
+  ],
+  "jobs": [
+    {
+      "name": "Haut de caisse",
+      "skills": [
+        "Mise en rayon",
+        "Collaboration étroite avec les équipes"
+      ],
+      "dateRange": "Juillet 2023 - Août 2023",
+      "corpName": "G20",
+      "corpPlace": "Courville-Sur-Eure (28190)",
+      "corpLogo": "g20.jpeg",
+      "corpLink": "https://www.supermarchesg20.com/"
+    },
+    {
+      "name": "Stagiaire",
+      "skills": [
+        "Découverte du quotidien des développeurs en entreprise",
+        "Observation de session de code en Javascript",
+        "Implication au sein des projets",
+        "Visite de l'usine de fabrication d'aluminium"
+      ],
+      "dateRange": "Janvier 2020",
+      "corpName": "Hydro",
+      "corpPlace": "Lucé (28110)",
+      "corpLogo": "hydro.jpeg",
+      "corpLink": "https://www.hydro.com/fr-FR/a-propos-dhydro/hydro-worldwide/europe/france/luce/hydro-extrusions-luce/"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Power Of Memory",
+      "desc": "Jeu du Memory en HTML/CSS/PHP/MySQL/JS, développé suivant la méthodologie SCRUM",
+      "link": "https://github.com/EnzoPOHU/projet-flash",
+      "dateRange": "Octobre 2023",
+      "duration": "1 mois",
+      "collaborators": "4"
+    },
+    {
+      "name": "Era Odyssey",
+      "desc": "Jeu développé sur Unity en C#",
+      "link": "https://github.com/CharaSwago/Era_Odyssey_Coding",
+      "dateRange": "Décembre 2023",
+      "duration": "En cours",
+      "collaborators": "3"
+    }
+  ]
+}

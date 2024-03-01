@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@200;300;400;500&display=swap');
+
+@media print
+{
+  #print-popup {
+    visibility: hidden!important;
+  }
+}
+
+:root {
+  --primary-color: #39485A;
+  --secondary-color: #2A3145;
+  --width: 80em;
+}
+
+html, body {
+  zoom: 85%;
+  background: white;
+  margin: 0;
+  font-family: 'Lexend', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+header, main { display: flex; width: var(--width); }
+a { color: inherit; text-decoration: none; }
+p, li { font-size: 1.3em!important; }
+img { user-select: none; }
+
+#topbar {
+  color: white;
+  background: var(--primary-color);  
+  display: flex;
+  height: 20em;
+  border-radius: 60px 0;
+  overflow: hidden;
+}
+
+
+#topbar-picture {
+  user-select: none;
+  width: 20em;
+}
+
+#topbar-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding-left: 1em;
+  margin-bottom: 0;
+  font-size: 1.5em;
+}
+
+#topbar-content h2 {
+  font-size: 1.4em;  
+}
+
+#left-column {
+  flex: 0.25!important;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  background: var(--secondary-color);
+  text-align: left;
+}
+
+#left-column h2 {
+  background: var(--primary-color);
+  margin: 0;
+  text-align: center;
+}
+
+#left-column h3 {
+  padding-left: 20px;
+}
+
+#info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#info h2 {
+  background: none!important;
+  text-align: left!important;
+  font-size: 1.3em;
+}
+
+#socials {
+  display: flex;
+  flex-direction: row;
+  font-size: 2em;
+  gap: 10px;
+}
+
+.hard-skills {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-left: 20px;
+  font-size: 1.2em;
+}
+
+.hard-skills i {
+  padding: 5px 0px;
+  font-size: 1.2em;
+}
+
+.hard-skills-items {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#langs, #soft-skills {
+  padding-left: 20px;
+}
+
+#interests {
+  padding: 10px 0px 10px 20px;  
+}
+
+#interests b {
+  font-size: 1.2em;
+}
+
+#interests p {
+  font-size: 0.99em!important;
+  margin: 0;
+  padding-right: 5px;
+}
+
+.place {
+  display: flex;
+  align-items: center;
+  padding: 0px 20px;
+  gap: 10px;
+}
+
+.place p {
+  padding-left: 5px;
+}
+
+.place img {
+  width: 5em;
+  height: 5em;
+  border: solid var(--primary-color) 4px;
+  border-radius: 60px;
+  object-fit: cover;
+}
+
+#situation {
+  padding: 0 20px;
+}
+
+.education-skills, .jobs-skills {
+  margin: 0;
+  margin-bottom: 10px;
+  padding-left: 4.9em;
+}
+
+#jobs-and-projects {
+  flex: 0.75!important;
+  color: black;
+}
+
+#jobs-and-projects h2 {
+  padding-left: 20px;
+  margin: 0;
+}
+
+#pitch {
+  text-align: justify;
+  padding: 0px 20px;
+}
+
+#projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 57em;
+  margin-left: 20px;
+  gap: 10px;
+}
+
+.project-card {
+  color: white;
+  background: var(--secondary-color);
+  border: 6px solid var(--primary-color);
+  border-radius: 25px;
+  width: 24em;
+  height: 10em;
+  padding: 0 20px;
+  margin-top: 10px;
+}
+
+.project-card a {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card a {
+  font-size: 0.9em;
+}
+
+.project-card a h2 {
+  padding: 0!important;
+  margin-top: 10px!important;
+  font-size: 1.4em;
+}
+
+.project-card a p {
+  margin: 0;
+  margin-top: 10px;
+}
+
+.project-card a div {
+  display: flex;
+  align-items: center;
+}
+
+.project-card a div div p {
+  margin: 0;
+}
+
+.project-card-time-people {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  gap: 5px;
+}
+
+#more-on-gh {
+  margin-bottom: 5px;
+}
+
+#print-popup {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4em;
+  padding: 10px 10px;
+  color: white;
+  background: var(--primary-color);
+  border-radius: 100%;
+  user-select: none;
+  cursor: pointer;
+}
